@@ -49,9 +49,9 @@ console.log(removeUnwanted(array3))
 //Question 4 
 let reverseString=(splitString)=>{
     // splits the string to char and .reverse rewrites the char in a reverse order
-   splitString = splitString.split("").reverse()
+   splitString = splitString.split(" ").reverse()
    // joins the char to a string 
-   splitString = splitString.join("")
+   splitString = splitString.join(" ")
    return splitString
 }
 console.log( reverseString("Hello World"))
